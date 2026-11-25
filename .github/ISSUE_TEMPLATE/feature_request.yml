@@ -1,0 +1,20 @@
+name: Feature request
+description: Propose an improvement for customers or operators.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Customer or operator problem
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Handoff, privacy, cost and deployment considerations

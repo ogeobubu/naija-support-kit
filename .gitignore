@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+data/
+sales/
+# Private commercial working documents are not part of the open-source toolkit.
+docs/first-customer-plan.md
+docs/pilot-offer.md
+docs/prospect-shortlist.md
+__pycache__/
+*.pyc
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.log
+*.pem
+*.key
+.venv/
+venv/
+.aws/
+.codex/
+.secrets/
+.idea/
+.vscode/
+.DS_Store

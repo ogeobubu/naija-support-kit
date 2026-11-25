@@ -1,0 +1,11 @@
+{
+  "business": "Lagos Demo Store (fictional)",
+  "disclosure": "I'm the automated assistant for Lagos Demo Store.",
+  "handoff": "I'll pass this to our team. A staff member will reply when available.",
+  "faqs": [
+    {"id": "hours", "keywords": ["opening hours", "open", "hours", "close", "time", "weekend"], "answer": "Our demo opening hours are Monday–Saturday, 9am–6pm WAT. We are closed on Sundays."},
+    {"id": "delivery", "keywords": ["delivery", "deliver", "shipping", "lekki", "ikeja", "transport"], "answer": "Demo delivery fees: Lekki ₦3,000 and Ikeja ₦2,000. For other locations, ask our team for a quote. These are sample prices."},
+    {"id": "returns", "keywords": ["return policy", "returns", "exchange", "return"], "answer": "Our sample policy allows returns of unused items within 7 days with proof of purchase. Our team must review and approve each request."},
+    {"id": "catalogue", "keywords": ["catalogue", "catalog", "products", "sell", "items"], "answer": "This is a fictional store demo. Tell our team which product you need; they will confirm current pricing and availability."}
+  ]
+}
