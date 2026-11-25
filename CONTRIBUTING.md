@@ -22,7 +22,7 @@ are not needed for these checks:
 ```sh
 python3 -m unittest discover -s tests -v
 python3 scripts/check_scenarios.py
-bash -n scripts/*.sh
+for script in scripts/*.sh; do bash -n "$script"; done
 ruby -c scripts/create_local_demo.rb
 ```
 
@@ -49,6 +49,6 @@ records. `.env.example` contains placeholders only. Report vulnerabilities using
 
 Submit only work you have permission to contribute. Contributions are distributed
 under this repository's MIT license. Preserve notices for any third-party work.
-Be respectful, explain technical disagreements and keep personal or confidential
-information out of public discussion. The maintainer may close abusive or
-off-topic contributions.
+Follow the [community code of conduct](CODE_OF_CONDUCT.md). Be respectful, explain
+technical disagreements and keep personal or confidential information out of
+public discussion.

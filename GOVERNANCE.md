@@ -2,8 +2,8 @@
 
 Naija Support Kit is an independently maintained open-source product led by
 Oge Obubu, [@ogeobubu](https://github.com/ogeobubu). Its public repository lives
-under that personal GitHub account. It is not a separate GitHub organization or
-a representation that a company has been legally incorporated.
+under that personal GitHub account, with a product identity and contribution
+process managed by its maintainer.
 
 ## Maintainer responsibilities
 

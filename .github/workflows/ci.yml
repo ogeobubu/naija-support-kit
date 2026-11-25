@@ -33,7 +33,7 @@ jobs:
       - name: Run customer scenarios
         run: python scripts/check_scenarios.py
       - name: Check shell scripts
-        run: bash -n scripts/*.sh
+        run: for script in scripts/*.sh; do bash -n "$script"; done
       - name: Check Ruby demo helper
         run: ruby -c scripts/create_local_demo.rb
       - name: Validate Compose configuration with temporary secrets
